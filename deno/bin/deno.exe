@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+echo "Error: Staging postinstall will overwrite this script." 1>&2
+exit 1
